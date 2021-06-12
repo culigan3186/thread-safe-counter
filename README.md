@@ -19,10 +19,12 @@ time ./sema_count 1000000
 ```
 ### Mutex excution time 
 -time average : real: 0.1085s , user: 0.1602s , sys: 0.053s 
+
 <img src = "https://user-images.githubusercontent.com/67793181/121784608-cd7bd880-cbef-11eb-8a4a-87726d9e7aac.png" height="450px" width="400px">  
 
 ### Semaphore execution time
 -time average : real: 3.466s , user: 1.414s, sys: 3.871s
+
 <img src = "https://user-images.githubusercontent.com/67793181/121784622-e4bac600-cbef-11eb-816d-78acba524ff5.png" height="450px" width="400px">
 
 
