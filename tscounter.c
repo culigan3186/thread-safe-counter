@@ -50,7 +50,7 @@ void *mythread(void *arg)
 }
                                                                              
 int main(int argc, char *argv[])
-{                    
+{   
     loop_cnt = atoi(argv[1]);
 
     init(&counter);
