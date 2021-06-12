@@ -17,7 +17,10 @@ time ./mutex_count 1000000
 ```
 time ./sema_count 1000000
 ```
-## Mutex excution time <img src = "https://user-images.githubusercontent.com/67793181/121784608-cd7bd880-cbef-11eb-8a4a-87726d9e7aac.png" height="450px" width="400px">      ## Semaphore execution time      <img src = "https://user-images.githubusercontent.com/67793181/121784622-e4bac600-cbef-11eb-816d-78acba524ff5.png" height="450px" width="400px">
+### Mutex excution time 
+<img src = "https://user-images.githubusercontent.com/67793181/121784608-cd7bd880-cbef-11eb-8a4a-87726d9e7aac.png" height="450px" width="400px">      
+## Semaphore execution time      
+<img src = "https://user-images.githubusercontent.com/67793181/121784622-e4bac600-cbef-11eb-816d-78acba524ff5.png" height="450px" width="400px">
 
 
 ## Why is there a difference in performance?
