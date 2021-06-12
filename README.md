@@ -18,6 +18,10 @@ time ./mutex_count 1000000
 time ./sema_count 1000000
 ```
 
+![Screenshot from 2021-06-13 02-31-11](https://user-images.githubusercontent.com/67793181/121784608-cd7bd880-cbef-11eb-8a4a-87726d9e7aac.png)
+![Screenshot from 2021-06-13 02-32-27](https://user-images.githubusercontent.com/67793181/121784622-e4bac600-cbef-11eb-816d-78acba524ff5.png)
+
+
 ## Why is there a difference in performance?
 
 
