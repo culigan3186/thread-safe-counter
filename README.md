@@ -32,7 +32,6 @@ mutex is released only by the process that has acquired the lock on it.
 Semaphore provides features to create queues for synchronization, and mutex has ownership to implement exclusive rights. Mutex is faster than semaphores because it does not require sophisticated implementation of counters and queues.
 
 
-## Reference
 
 ## About Me
 - **Name : Kim Wonjune**
