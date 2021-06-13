@@ -2,13 +2,6 @@
 ## Environments
 - **Ubuntu 18.04**
 
-## What is Mutex and Semaphore respectively?
-
-- **Semaphore**  : 
-- **Mutex** : Mutex or Mutual Exclusion Object is used to give access to a resource to only one process at a time. The mutex object allows all the processes to use the same resource but at a time, only one process is allowed to use the resource. Mutex uses the lock-based technique to handle the critical section problem.
-
-
-
 ## Execution time of Semaphore and Mutex 
 I compared the performance of semaphore and mutex using Liuux's time command.
 ```
@@ -31,7 +24,7 @@ time ./sema_count 1000000
 ## Why is there a difference in performance?
 As a result of the execution of mutex and semaphore, mutex had a shorter execution time.In other words, Mutex was faster than Semaphore.
 
-Semaphores can access shared resources by as many processes (or threads) as the semaphores' variables. On the other hand, mutex can access only one process (or thread) at a time.
+Semaphores can access shared resources by as many processes (or threads) as the semaphores' variables. On the other hand,  Mutex or Mutual Exclusion Object is used to give access to a resource to only one process at a time. The mutex object allows all the processes to use the same resource but at a time, only one process is allowed to use the resource. Mutex uses the lock-based technique to handle the critical section problem.
 
 semaphore can be changed by any process acquiring or releasing the resource.
 mutex is released only by the process that has acquired the lock on it.
